@@ -1,0 +1,67 @@
+/* 16px = 1 rem */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: #F00000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ca271e, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ca271e, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*botones*/
+button{
+    border: none;
+    background: none;
+    color: white;
+    padding: 0 0.5em 0 0.5em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.activo{
+    font-weight: bold;
+}
+
+/*panel*/
+.panel{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*width: 9em;*/
+}
+
+.panel button{
+    font-size: 2rem;
+}
+
+/* timer */
+.timer{
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+/* controles */
+.controlls{
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 3em;
+}
