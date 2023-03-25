@@ -18,7 +18,7 @@ var intervalo;
 
 //tiempos de pomodoro
 const workMinutos= 25;
-const breakMinutos= 5;
+const breakMinutos= "05";
 const restMinutos= 20;
 const segundos= "00";
 
