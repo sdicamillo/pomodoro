@@ -14,9 +14,8 @@
     align-items: center;
     flex-direction: column;
     color: white;
-    background: #F00000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #ca271e, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #ca271e, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #ea2027;
+    background-image: linear-gradient(180deg, #ea2027 0%, #ca271e 74%);
 }
 
 /*botones*/
